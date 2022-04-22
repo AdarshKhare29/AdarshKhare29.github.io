@@ -10,26 +10,17 @@ import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Comtact';
 import Footer from './components/Footer';
-const imagePath={
-  sun :'./images/sun.png',
-  moon:'./images/moon.png'
-}
+
 function App() {
   const [darkMode, setDarkMode] = useState(false)
   const [showHeader,setShowHeader]=useState(false);
-  const [open,setOpen]=useState(true)
-  const getImageName=()=>{
-    return open?'moon':"sun"
-  }
-  const imageName=getImageName()
+  
   const handleClick = () => {
     setDarkMode(!darkMode)
-    setOpen(!open)
   }
   if(!showHeader){return (
     <div className={darkMode ? 'dark-mode' : ''}>
       <div className='mode-icon'>
-        {/* <img src={imagePath[imageName]} alt='theme-icon' onClick={handleClick} className={darkMode?'dark-mode':''}/> */}
         <input type="checkbox" id="toggle" />
         <label for="toggle" class="button" onClick={handleClick} ></label>
       </div>
