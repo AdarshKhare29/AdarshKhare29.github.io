@@ -18,7 +18,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-8">
                             <p>
-                                Hey! I'm <b>Adarsh Khare</b>, a Computer Science Graduate and Frontend developer with 1.5
+                                Hey! I'm <b>Adarsh Khare</b>, a Computer Science Graduate and Frontend developer with 5
                                 years of
                                 experience in creating and executing innovative solutions to enhance business productivity.
                                 Highly experienced in all aspects of the software development lifecycle.
